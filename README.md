@@ -1,6 +1,6 @@
 # CC Mods
 
-A catalog of [Claude Code mods](https://code.claude.com/docs/en/plugins/mods/overview) by Steven Ferdianto. The repo is also a plugin marketplace (`steven-mods`), so you can install any mod in it straight from Claude Code.
+A catalog of [Claude Code mods](https://code.claude.com/docs/en/plugins/mods/overview) by Steven Ferdianto. The repo is also a plugin marketplace (`stevefrdnt`), so you can install any mod in it straight from Claude Code.
 
 ## Catalog
 
@@ -19,20 +19,23 @@ Four meters sit above the prompt. **5h usage** and **Weekly usage** go green, th
 Add the marketplace once:
 
 ```bash
-claude plugin marketplace add GITHUB_USER/cc-mods
+claude plugin marketplace add stevefrdnt/cc-mods
 ```
 
 Then install any mod from the catalog:
 
 ```bash
-claude plugin install usage-bars@steven-mods
+claude plugin install usage-bars@stevefrdnt
 ```
 
-To try a mod without installing it, clone the repo and point Claude Code at the mod's folder:
+To update, run `claude plugin marketplace update stevefrdnt`, then `claude plugin update usage-bars@stevefrdnt`.
+
+To try a mod without installing it, clone the repo and point Claude Code at the mod's folder. Pointing `--plugin-dir` at `mods/` loads every mod in the catalog:
 
 ```bash
-git clone https://github.com/GITHUB_USER/cc-mods.git
-claude --plugin-dir ./cc-mods/mods/usage-bars
+git clone https://github.com/stevefrdnt/cc-mods.git
+claude --plugin-dir ./cc-mods/mods/usage-bars   # one mod
+claude --plugin-dir ./cc-mods/mods              # every mod
 ```
 
 ## Repo layout

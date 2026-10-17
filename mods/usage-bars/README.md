@@ -38,14 +38,14 @@ In the desktop app the bars are drawn as a grid of tiny squares; in the terminal
 From your shell:
 
 ```bash
-claude plugin marketplace add GITHUB_USER/cc-mods
-claude plugin install usage-bars@steven-mods
+claude plugin marketplace add stevefrdnt/cc-mods
+claude plugin install usage-bars@stevefrdnt
 ```
 
 Or in one step from inside a Claude Code session (v2.1.275 or later):
 
 ```
-/plugin install usage-bars --marketplace GITHUB_USER/cc-mods
+/plugin install usage-bars --marketplace stevefrdnt/cc-mods
 ```
 
 The bars appear above the prompt in your next session and fill in after Claude's first reply.
@@ -53,19 +53,19 @@ The bars appear above the prompt in your next session and fill in after Claude's
 ### Try it without installing
 
 ```bash
-git clone https://github.com/GITHUB_USER/cc-mods.git
+git clone https://github.com/stevefrdnt/cc-mods.git
 claude --plugin-dir ./cc-mods/mods/usage-bars
 ```
 
 ### Update
 
 ```bash
-claude plugin update usage-bars@steven-mods
+claude plugin update usage-bars@stevefrdnt
 ```
 
 ### Turn it off
 
-Run `/plugin`, find **usage-bars** on the **Installed** tab and turn it off, or uninstall it with `claude plugin uninstall usage-bars@steven-mods`.
+Run `/plugin`, find **usage-bars** on the **Installed** tab and turn it off, or uninstall it with `claude plugin uninstall usage-bars@stevefrdnt`.
 
 ## How it works
 
