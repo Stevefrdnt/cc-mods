@@ -1,0 +1,15 @@
+{
+  "name": "steven-mods",
+  "description": "Claude Code mods by Steven Ferdianto",
+  "owner": {
+    "name": "Steven Ferdianto"
+  },
+  "plugins": [
+    {
+      "name": "usage-bars",
+      "source": "./mods/usage-bars",
+      "description": "Plan usage (5-hour and weekly), context left before auto-compact, and session tokens as live progress bars above the Claude Code prompt",
+      "version": "0.1.0"
+    }
+  ]
+}

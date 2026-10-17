@@ -1,0 +1,19 @@
+{
+  "name": "usage-bars",
+  "displayName": "Usage Bars",
+  "version": "0.1.0",
+  "description": "Plan usage (5-hour and weekly), context left before auto-compact, and session tokens as live progress bars above the Claude Code prompt",
+  "author": {
+    "name": "Steven Ferdianto"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mod",
+    "usage",
+    "rate-limits",
+    "context",
+    "tokens",
+    "status"
+  ],
+  "types": "./types/index.d.ts"
+}
