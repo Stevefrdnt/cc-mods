@@ -7,12 +7,21 @@ A catalog of [Claude Code mods](https://code.claude.com/docs/en/plugins/mods/ove
 | Mod | What it does | Version | Status |
 | --- | --- | --- | --- |
 | [**Usage Bars**](mods/usage-bars) | Live progress bars above the prompt for your 5-hour and weekly plan usage, the context left before auto-compact, and this session's tokens and cost | 0.1.0 | In use |
+| [**Tokengotchi**](mods/tokengotchi) | Clawd in a pixel office pane: it types on a laptop while Claude works, levels up from your tokens, collects items from finished work, and shows your 5-hour limit as energy | 0.1.0 | New |
 
 ### Usage Bars
 
 ![Usage Bars above the Claude Code prompt](mods/usage-bars/docs/preview.png)
 
 Four meters sit above the prompt. **5h usage** and **Weekly usage** go green, then orange from 75%, then red from 91%. **Context** shows how full the window is. **Session tokens** shows tokens in, tokens out, and cost. See the [Usage Bars README](mods/usage-bars/README.md) for details, requirements and how to customize it.
+
+### Tokengotchi
+
+![Clawd typing on a laptop in its pixel office, with EXP and Energy bars and the item collection below](mods/tokengotchi/docs/preview.png)
+
+▶ [Watch the 30-second showcase](mods/tokengotchi/docs/demo.mp4)
+
+Clawd, the Claude Code mascot, lives in a little pixel office in a pane. While Claude works, Clawd opens a laptop and types. Tokens give it EXP and levels, finished work drops items into a collection, and its energy bar is what's left of your 5-hour plan limit. One pet is shared by all your sessions, and there's nothing to look after. See the [Tokengotchi README](mods/tokengotchi/README.md).
 
 ## Install
 

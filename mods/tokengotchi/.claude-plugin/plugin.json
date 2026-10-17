@@ -1,0 +1,46 @@
+{
+  "name": "tokengotchi",
+  "displayName": "Tokengotchi",
+  "version": "0.1.0",
+  "description": "Clawd, the Claude Code mascot, in a pixel office pane: it types on a laptop while Claude works, levels up from your tokens, collects items when work is done, and shows your 5-hour limit as energy",
+  "author": {
+    "name": "Steven Ferdianto"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mod",
+    "pet",
+    "tamagotchi",
+    "clawd",
+    "pixel-art",
+    "tokens",
+    "game"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "name": {
+      "type": "string",
+      "title": "Pet name",
+      "description": "What your pet is called when it first hatches (rename it later with /pet rename)",
+      "default": "Clawd"
+    },
+    "openOnStart": {
+      "type": "boolean",
+      "title": "Open the pane on start",
+      "description": "Open the pet's pane when a session starts (it only docks on wide terminals; /pet opens it any time)",
+      "default": true
+    },
+    "statusLine": {
+      "type": "boolean",
+      "title": "Status line",
+      "description": "Show the pet's name, level and whether it's working under the prompt",
+      "default": true
+    },
+    "toasts": {
+      "type": "boolean",
+      "title": "Toasts",
+      "description": "Pop up a toast when the pet finds an item or levels up",
+      "default": true
+    }
+  }
+}

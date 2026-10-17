@@ -10,6 +10,12 @@
       "source": "./mods/usage-bars",
       "description": "Plan usage (5-hour and weekly), context left before auto-compact, and session tokens as live progress bars above the Claude Code prompt",
       "version": "0.1.0"
+    },
+    {
+      "name": "tokengotchi",
+      "source": "./mods/tokengotchi",
+      "description": "Clawd, the Claude Code mascot, in a pixel office pane: it types on a laptop while Claude works, levels up from your tokens, collects items when work is done, and shows your 5-hour limit as energy",
+      "version": "0.1.0"
     }
   ]
 }
